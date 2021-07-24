@@ -33,5 +33,16 @@ CSC264 - INTRODUCTION TO WEB AND MOBILE APPLICATION (MDM. AISYAH MAT JASIN)
 
 # MYTECC SALES SYSTEM 1.0.0
 
-VERSION: 1.0.0
-DATE RELEASE: JULY 2021
+PRE-RELEASE VERSION: 1.0.0
+
+# PREVIEW:
+
+![1](https://user-images.githubusercontent.com/74871953/126875275-59e96c4e-ea5a-485a-bdc8-2c61c5e64b53.png)
+
+![2](https://user-images.githubusercontent.com/74871953/126875309-d1f14d9e-238d-4631-994f-45c7c99f5ded.png)
+
+![3](https://user-images.githubusercontent.com/74871953/126875315-2a17dbc5-6170-46cf-87d6-baf91b40a903.png)
+
+![4](https://user-images.githubusercontent.com/74871953/126875319-1f7e35bb-f880-4715-9a66-bd2b122f2353.png)
+
+![5](https://user-images.githubusercontent.com/74871953/126875322-0bd2be59-eccc-4558-bdaf-380f8e105e40.png)
