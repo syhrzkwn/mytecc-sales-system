@@ -1,0 +1,91 @@
+/*==== ERROR AND SUCCESS MESSAGES =====*/
+.btn_grp .btn.btn_info,
+.alert_item.alert_info {
+  background: #68c0e0;
+  color: #0099cc;
+}
+
+.btn_grp .btn.btn_warning,
+.alert_item.alert_warning {
+  background: #ffc145;
+  color: #ff8800;
+}
+
+.btn_grp .btn.btn_error,
+.alert_item.alert_error {
+  background: #fc5c5c;
+  color: #cc0000;
+}
+
+.btn_grp .btn.btn_success,
+.alert_item.alert_success {
+  background: #03ca53;
+  color: #007e33;
+}
+
+.alert_wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  visibility: hidden;
+}
+
+.alert_backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0.9;
+  z-index: 3;
+}
+
+.alert_wrapper .alert_item {
+  z-index: 3;
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  padding: 25px 50px;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+
+.alert_wrapper .alert_item .data {
+  margin: 0 50px;
+}
+.alert_wrapper .alert_item .data .title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.alert_wrapper .alert_item .data span {
+  font-weight: 700;
+}
+.alert_wrapper .alert_item .data .sub {
+  font-size: 14px;
+  font-weight: 100;
+}
+.alert_wrapper .alert_item .icon {
+  font-size: 32px;
+}
+.alert_wrapper .alert_item .close {
+  cursor: pointer;
+}
+
+.alert_item.alert_info .close:hover,
+.alert_item.alert_warning .close:hover,
+.alert_item.alert_error .close:hover,
+.alert_item.alert_success .close:hover {
+  color: #fff;
+}
+
+.alert_wrapper.active1 {
+  visibility: visible;
+}
+.alert_wrapper.active1 .alert_item {
+  top: 50%;
+}

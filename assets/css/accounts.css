@@ -1,0 +1,23 @@
+th,
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+.contact-icon {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: #ff1111;
+  vertical-align: middle;
+}
+
+.text-box {
+  border: none;
+  outline: none;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid gray;
+  border-radius: 0.5rem;
+  padding: 8px 6px;
+}

@@ -1,0 +1,290 @@
+.section {
+  padding: 1rem 0 1rem;
+}
+
+.section-title {
+  position: relative;
+  margin-bottom: 5rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  color: grey;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  line-height: 22px;
+}
+
+.green {
+  color: #03a685;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper_content {
+  width: 50%;
+  height: auto;
+  padding: 5px;
+  margin: 5px 0;
+  position: relative;
+  margin-left: 50px;
+}
+
+.wrapper_amount {
+  width: 50%;
+  height: auto;
+  padding: 5px;
+  margin: 5px 0;
+  position: relative;
+  margin-right: 50px;
+}
+
+.header_title {
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.product_wrap,
+.price_details {
+  width: 560px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.product_info {
+  display: flex;
+  align-items: center;
+}
+
+.product_data {
+  margin: 0 10px;
+}
+
+.description {
+  margin-bottom: 15px;
+}
+.product_img img {
+  width: 150px;
+  height: 200px;
+  display: block;
+}
+
+.main_header {
+  font-weight: 700;
+}
+
+.sub_header {
+  color: rgb(139, 139, 139);
+}
+
+.product_btns {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e4e4e4;
+  color: #aca9a9;
+}
+
+.product_btns > div {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.product_btns > div:hover {
+  background-color: #efefef;
+  border-radius: 3px;
+  color: black;
+  font-weight: 700;
+}
+
+.remove {
+  background-color: #fff;
+  border-right: 1px solid #e4e4e4;
+  width: 100%; /*change back to 40% if enable wishlist button*/
+  border: none;
+  cursor: pointer;
+}
+
+.wishlist {
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.remove:hover,
+.wishlist:hover {
+  font-weight: bold;
+}
+
+.qty,
+.price {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.qty > div {
+  background-color: #e4e4e4;
+  margin-right: 10px;
+  padding: 5px 20px;
+  font-weight: 500;
+  border-radius: 3px;
+  padding-right: 25px;
+  position: relative;
+}
+
+.current_price {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.normal_price {
+  color: #adadad;
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+
+.discount {
+  color: #f16565;
+}
+
+.wrapper_amount {
+  width: 50%;
+}
+
+.price_details .item,
+.total,
+.coupon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price_details .item {
+  margin-bottom: 10px;
+}
+
+.price_details .coupon {
+  margin-top: 20px;
+}
+
+.price_details .total {
+  padding-top: 10px;
+  border-top: 1px solid #e4e4e4;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.price_details .coupon a {
+  color: #ff1111;
+  background-color: #efefef;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.price_details .coupon a:hover {
+  font-weight: 700;
+}
+
+.button {
+  background-color: #ff1111;
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.body ul {
+  display: flex;
+  padding: 10px 15px 15px;
+}
+
+.body ul li {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.body ul li:hover,
+.body ul li.active {
+  border-color: #ff1111;
+  color: #ff1111;
+}
+
+.checkout {
+  padding: 10px 15px;
+  background-color: #ff1111;
+  width: 560px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout:hover {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.checkout_btn {
+  color: #fff;
+  width: 100%;
+  display: block;
+}
+
+.disclaimer {
+  margin-left: 3rem;
+  color: rgb(80, 80, 80);
+}
+
+@media screen and (max-width: 1100px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper_amount {
+    margin: -20px 50px;
+  }
+
+  .slider {
+    width: 173%;
+  }
+
+  .bag {
+    display: none;
+  }
+
+  .payment {
+    display: none;
+  }
+
+  .address {
+    display: none;
+  }
+}
