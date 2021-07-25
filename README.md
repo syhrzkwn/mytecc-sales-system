@@ -35,6 +35,9 @@ CSC264 - INTRODUCTION TO WEB AND MOBILE APPLICATION (MDM. AISYAH MAT JASIN)
 
 PRE-RELEASE VERSION: 1.0.0
 
+# VIDEO PRESENTATION:
+YouTube link: https://youtu.be/0JIu1Blysgc
+
 # PREVIEW:
 
 ![1](https://user-images.githubusercontent.com/74871953/126875275-59e96c4e-ea5a-485a-bdc8-2c61c5e64b53.png)
